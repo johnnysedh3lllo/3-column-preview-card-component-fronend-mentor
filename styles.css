@@ -141,7 +141,7 @@ h2 {
 }
 
 p {
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
   color: var(--clr-neutral-100);
   font-size: var(--fs-primary);
   line-height: 1.7;
@@ -184,7 +184,7 @@ button:hover {
   .preview-card-main {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 20rem);
+    grid-template-columns: repeat(3, 19rem);
   }
 
   p {
