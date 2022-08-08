@@ -130,7 +130,7 @@ section {
   padding: 3em;
 }
 
-h1 {
+h2 {
   padding: 0.5em 0;
 
   --fs-primary: 2.5rem;
@@ -184,7 +184,7 @@ button:hover {
   .preview-card-main {
     max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 17rem);
   }
 
   p {
