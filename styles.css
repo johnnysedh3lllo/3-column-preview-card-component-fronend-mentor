@@ -1,0 +1,193 @@
+:root {
+  /* COLORS */
+  --clr-primary-100: hsl(31, 77%, 52%);
+  --clr-primary-200: hsl(184, 100%, 22%);
+  --clr-primary-300: hsl(179, 100%, 13%);
+
+  --clr-neutral-100: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-200: hsl(0, 0%, 95%);
+
+  /* FONT SIZE */
+  --fs-primary: 15px;
+
+  /* FONT FAMILY */
+  --ff-primary-100: "Lexend Deca", sans-serif;
+  --ff-primary-200: "Big Shoulders Display", cursive;
+
+  /* FONT WEIGHT */
+  --fw-primary-100: 400;
+  --fw-primary-200: 700;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* I STARTED HERE */
+body {
+  background-color: var(--clr-neutral-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  font-family: var(--ff-primary-100);
+  font-weight: var(--fw-primary-100);
+}
+
+.preview-card-main {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.preview-card-main section{
+    max-width: clamp(20.5rem, 75vw, 25rem);
+}
+
+.section-one {
+  background-color: var(--clr-primary-100);
+}
+
+.section-two {
+  background-color: var(--clr-primary-200);
+}
+
+.section-three {
+  background-color: var(--clr-primary-300);
+}
+
+section {
+  padding: 3em;
+}
+
+h1 {
+  padding: 0.5em 0;
+
+  --fs-primary: 2.5rem;
+  font-weight: var(--fw-primary-200);
+  color: var(--clr-neutral-200);
+  font-family: var(--ff-primary-200);
+  font-size: var(--fs-primary);
+}
+
+p {
+  padding-bottom: 1.5em;
+  color: var(--clr-neutral-100);
+  font-size: var(--fs-primary);
+  line-height: 1.7;
+}
+
+.section-one button {
+  color: var(--clr-primary-100);
+}
+
+.section-two button {
+  color: var(--clr-primary-200);
+}
+
+.section-three button {
+  color: var(--clr-primary-300);
+}
+
+button {
+  font-size: var(--fs-primary);
+  width: 65%;
+  padding: .8em 0em;
+  border-radius: 2em;
+  border: 1px solid white;
+  border-color: var(--clr-neutral-200);
+  background-color: var(--clr-neutral-200);
+}
+
+button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+
+/* MEDIA QUERY FOR LARGER SCREENS */
+@media (min-width: 1024px) {
+  .preview-card-main section {
+    max-width: 22rem;
+  }
+
+  .preview-card-main {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  p {
+    padding-bottom: 4em;
+  }
+}
