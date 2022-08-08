@@ -131,7 +131,7 @@ section {
 }
 
 h2 {
-  padding: 1.5em 0 0.5em 0;
+  padding: 1em 0 0.5em 0;
 
   --fs-primary: 2.5rem;
   font-weight: var(--fw-primary-200);
@@ -188,6 +188,6 @@ button:hover {
   }
 
   p {
-    padding-bottom: 5em;
+    padding-bottom: 5.2em;
   }
 }
