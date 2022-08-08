@@ -184,7 +184,7 @@ button:hover {
   .preview-card-main {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 17rem);
+    grid-template-columns: repeat(3, 20rem);
   }
 
   p {
