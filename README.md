@@ -25,10 +25,8 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Frontend Mentor]
-(https://www.frontendmentor.io/solutions/3-column-card-component-built-with-css-grid-and-flexbox-mobilefirst-XZWzqIIvp9)
-- Live Site URL: [GitHub]
-(https://johnnysedh3lllo.github.io/3-column-preview-card-component-fronend-mentor/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-card-component-built-with-css-grid-and-flexbox-mobilefirst-XZWzqIIvp9)
+- Live Site URL: [GitHub](https://johnnysedh3lllo.github.io/3-column-preview-card-component-fronend-mentor/)
 
 ## My process
 
@@ -46,8 +44,8 @@ this is my first attempt at using CSS Grid in real situation so i would say that
 i plan to use Grid more to fully understand its capabilities as well venture more into the world of responsive web design.
 
 ## Author
-- GitHub - [johnnysedh3lllo] (https://github.com/johnnysedh3lllo)
+- GitHub - [johnnysedh3lllo](https://github.com/johnnysedh3lllo)
 
-- Frontend Mentor - [@johnnysedh3lllo] (https://www.frontendmentor.io/profile/johnnysedh3lllo)
+- Frontend Mentor - [@johnnysedh3lllo](https://www.frontendmentor.io/profile/johnnysedh3lllo)
 
 - Twitter - [@johnnysedh3lllo](https://www.twitter.com/johnnysedh3lllo)
